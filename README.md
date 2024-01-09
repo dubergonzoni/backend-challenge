@@ -1,70 +1,68 @@
 
-# Projeto Pastelaria
+# Pastry Shop Project
 
-Este projeto é uma aplicação web desenvolvida com o framework Laravel. Ele permite o gerenciamento de pedidos, clientes e produtos de uma pastelaria.
+This project is a web application developed with the Laravel framework. It allows for the management of orders, customers, and products of a pastry shop.
 
-## Funcionalidades
+## Features
 
-- Gerenciamento de Clientes
-- Gerenciamento de Produtos
-- Criação e gerenciamento de Pedidos
-- Envio de email para o cliente com detalhes do pedido
+- Customer Management
+- Product Management
+- Creation and Management of Orders
+- Sending an email to the customer with the details of their order
 
-## Requisitos
+## Requirements
 
 - PHP >= 7.4
 - Composer
 - MySQL
 - Laravel 8.x
 
-## Instalação
+## Installation
 
-Siga os passos abaixo para configurar o ambiente de desenvolvimento:
+Follow the steps below to set up the development environment:
 
-1. **Clonar o Repositório**
+1. **Clone the Repository**
    ```sh
-   git clone [URL_DO_REPOSITORIO]
-   cd [NOME_DO_PROJETO]
+   git clone https://github.com/dubergonzoni/backend-challenge.git
+   cd backendchallenge
    ```
 
-2. **Instalar Dependências do Composer**
+2. **Install Composer Dependencies**
    ```sh
    composer install
    ```
 
-3. **Configurar Arquivo `.env`**
-   - Copie o arquivo `.env.example` para um novo arquivo chamado `.env`.
-   - Atualize as variáveis de ambiente, especialmente as relacionadas ao banco de dados (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`).
+3. **Configure the `.env` File**
+   - Copy the `.env.example` file to a new file named `.env`.
+   - Update the environment variables, especially those related to the database (`DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`).
 
-4. **Gerar Chave da Aplicação**
+4. **Generate Application Key**
    ```sh
    php artisan key:generate
    ```
 
-5. **Executar Migrações**
+5. **Run Migrations**
    ```sh
    php artisan migrate
    ```
 
-6. **(Opcional) Semear Banco de Dados**
-   ```sh
-   php artisan db:seed
-   ```
+## Execution
 
-## Execução
-
-Para iniciar o servidor de desenvolvimento:
+To start the development server:
 
 ```sh
 php artisan serve
 ```
 
-Acesse a aplicação em `http://localhost:8000`.
+Access the application at `http://localhost:8000`.
+Observation: Views are under development
 
-## Testes - a serem implementados
+## Testing
 
-Execute os testes de exemplo com o seguinte comando:
+Run the tests with the following command:
 
 ```sh
 php artisan test
 ```
+Observation: under developmet, will run only example tests.
+
