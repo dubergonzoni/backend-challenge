@@ -61,18 +61,10 @@ php artisan serve
 
 Acesse a aplicação em `http://localhost:8000`.
 
-## Testes
+## Testes - a serem implementados
 
-Execute os testes com o seguinte comando:
+Execute os testes de exemplo com o seguinte comando:
 
 ```sh
 php artisan test
 ```
-
-## Contribuição
-
-Instruções sobre como contribuir para o projeto.
-
-## Licença
-
-Informações sobre a licença do projeto.
